@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "CoachAI",
+    "slug": "coachai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.coachaiapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.coachaiapp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-purchases",
+        {
+          "android": {
+            "enableAmazon": false
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "coachai-47d7a"
+      }
+    }
+  }
+}
